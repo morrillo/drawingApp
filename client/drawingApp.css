@@ -1,0 +1,45 @@
+.js-color-yellow {
+	background-color: yellow;
+}
+.js-color-white {
+	background-color: white;
+}
+.js-color-red {
+	background-color: red;
+}
+.js-color-purple {
+	background-color: purple;
+}
+.js-color-pink {
+	background-color: pink;
+}
+.js-color-orange {
+	background-color: orange;
+}
+.js-color-grey {
+	background-color: grey;
+}
+.js-color-green {
+	background-color: green;
+}
+.js-color-cyan {
+	background-color: cyan;
+}
+.js-color-brown {
+	background-color: brown;
+}
+.js-color-blue {
+	background-color: blue;
+}
+.js-color-black {
+	background-color: black;
+}
+
+.js-color-buttons {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.color-buttons {
+	height: 75px;
+}

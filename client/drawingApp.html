@@ -1,0 +1,72 @@
+<head>
+  <title>1-wall</title>
+</head>
+
+<body>
+  {{> wall}}
+</body>
+
+<template name="wall">
+
+  <h1>{{title}}</h1>
+  <button class='clear'>Clear</button>
+  <button class='red'>Red</button>
+  <button class='blue'>Blue</button>
+  <button class='green'>Green</button>
+  <button class='black'>Black</button>
+  <button class='white'>White</button>
+  <button class='thicker'>Thicker</button>
+  <button class='thinner'>Thinner</button>
+
+{{> canvas}}
+
+{{> color_buttons}}
+
+</template>
+
+<template name="canvas">
+  <div id='canvas'></div>
+</template>
+
+<template name="color_buttons">
+	<div class="row js-color-buttons">
+	    <div class="color-buttons">
+		<div class="col-xs-1 js-color-black">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-blue">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-brown">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-cyan">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-green">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-grey">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-orange">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-pink">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-purple">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-red">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-white">
+			<span>&nbsp;</span>
+		</div>
+		<div class="col-xs-1 js-color-yellow">
+			<span>&nbsp;</span>
+		</div>
+	    </div>
+	</div>
+</template>
